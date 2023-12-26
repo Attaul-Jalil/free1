@@ -1,7 +1,6 @@
 {
   "ovpn_file":[
     {"id":0,"file":"
-setenv FORWARD_COMPATIBLE 1
 client
 server-poll-timeout 4
 nobind
@@ -91,6 +90,28 @@ OLEp9NRXe9LVX7hUsuRRdJeR
 -----END PRIVATE KEY-----
 </key>
 <tls-crypt>
+#
+# 2048 bit OpenVPN static key (Server Agent)
+#
+-----BEGIN OpenVPN Static key V1-----
+a7200ed223c979211d56f1dec6a3d488
+77b98287c068751c9e01e67ffbd4e322
+0ec309d60bfe88b845c2a0a455b8a0fe
+95094dd50840554905aab1894e4e5121
+405091fb9fc7517c4c484e1440279e64
+e8f165eeef81ba625dd03ec281d4c255
+862101f93ca87e711ca473fae1f6a715
+e2a98c3875795051ec0572fa78ed7e25
+69012cf516707814a448cd7a08914327
+b083111863facd3ef3290c38f71deaee
+202b49b94fb393f261ee3a176bc3e141
+6092230128a2f5cb12c64d3a673c246c
+1c4ec3cf1ecb3102ce22822c7334defe
+ab1326c4d8d9d70eaa0ee7d48dee92c5
+0ff64a878639f4cbb7122d079d736909
+f84d11e059d0318a04d2cb5edc79c4e4
+-----END OpenVPN Static key V1-----
+</tls-crypt>
 #
 # 2048 bit OpenVPN static key (Server Agent)
 #
